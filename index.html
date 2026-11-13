@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandan Kamalakannan - Resume & Portfolio</title>
+    <!-- Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-slate-900 tracking-tight">Nandan Kamalakannan</h1>
+            <nav class="space-x-6 text-sm font-medium">
+                <a href="#about" class="text-slate-600 hover:text-blue-600 transition">About</a>
+                <a href="#education" class="text-slate-600 hover:text-blue-600 transition">Education</a>
+                <a href="#projects" class="text-slate-600 hover:text-blue-600 transition">Projects</a>
+                <a href="#contact" class="text-slate-600 hover:text-blue-600 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+        <!-- Hero / About Section -->
+        <section id="about" class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+            <div class="flex justify-center md:justify-start">
+                <div class="w-32 h-32 rounded-full bg-slate-200 overflow-hidden border-4 border-white shadow-inner">
+                    <!-- Added object-top here -->
+                    <img src="Nandan_profile.jpg" alt="Nandan Kamalakannan" class="w-full h-full object-contain object-center">
+                </div>
+            </div>
+            <div class="md:col-span-2 space-y-4 text-center md:text-left">
+                <h2 class="text-3xl font-bold text-slate-900">Hi, I'm Nandan 👋</h2>
+                <p class="text-slate-600">
+                    I'm a passionate student interested in technology, design, and building tools that help people. I love learning new things, collaborating on creative projects, and solving real-world problems through code.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+   <!-- Education Section -->
+   <section id="education" class="space-y-6">
+    <h3 class="text-2xl font-bold text-slate-900 border-b pb-2 flex items-center gap-2">
+        <i class="fa-solid fa-briefcase text-blue-600"></i> Education
+    </h3>
+
+    <div class="space-y-6">
+        <!-- High School Card -->
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 space-y-3">
+            <div class="flex justify-between items-start flex-wrap gap-2">
+                <div>
+                    <h4 class="font-semibold text-lg text-slate-900">High School Diploma (Candidate)</h4>
+                    <p class="text-sm text-blue-600 font-medium">South Brunswick High School</p>
+                </div>
+                <span class="text-xs bg-slate-100 text-slate-600 px-3 py-1 rounded-full font-medium">Expected 2028</span>
+            </div>
+            <p class="text-sm text-slate-600">
+                Focused on STEM coursework, advanced mathematics, and computer science fundamentals.
+            </p>
+
+            <!-- Relevant Coursework & AP Scores -->
+            <div class="pt-2 border-t border-slate-100">
+                <h5 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">Advanced Coursework & AP Exams</h5>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-700">
+                    <div>• AP Physics (Score: 4)</div>
+                    <div>• AP Computer Science A (Score: 3)</div>
+                    <div>• AP US Government & Politics</div>
+                    <div>• College Calculus</div>
+                    <div class="sm:col-span-2">• College Computer Applications & Systems <span class="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded ml-1 font-medium">Dual Enrollment</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="space-y-6">
+            <h3 class="text-2xl font-bold text-slate-900 border-b pb-2 flex items-center gap-2">
+                <i class="fa-solid fa-code text-blue-600"></i> Featured Projects
+            </h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex flex-col justify-between space-y-4">
+                    <div class="space-y-2">
+                        <h4 class="font-semibold text-lg text-slate-900">Highlight Reel Generator</h4>
+                        <p class="text-sm text-slate-600">
+                            An automated batch video processing pipeline that creates highlight reels from raw videos using Azure AI Video Indexer and MoviePy.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-medium">Python</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 flex flex-col justify-between space-y-4">
+                    <div class="space-y-2">
+                        <h4 class="font-semibold text-lg text-slate-900">Personal Portfolio</h4>
+                        <p class="text-sm text-slate-600">
+                            A responsive, modern personal portfolio and resume website built to showcase my education, technical skills, and featured projects. Designed with a clean layout using Tailwind CSS and deployed live via GitHub Pages.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-2 pt-2">
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-medium">HTML5</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-medium">Tailwind CSS</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-medium">JavaScript</span>
+                        <span class="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-medium">Git & GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-blue-600 text-white p-8 rounded-2xl shadow-sm text-center space-y-4">
+            <h3 class="text-2xl font-bold">Let's Connect!</h3>
+            <p class="text-blue-100 max-w-md mx-auto text-sm">
+                Email: <a href="mailto:nandankamalakannan@gmail.com" class="underline hover:text-white">nandankamalakannan@gmail.com</a>
+            </p>
+            <p class="text-blue-100 max-w-md mx-auto text-sm">
+                GitHub: <a href="https://github.com/Nandan164" target="_blank" class="underline hover:text-white">github.com/Nandan164</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-sm text-slate-400 border-t mt-16">
+        <p>© 2026 Nandan Kamalakannan. Built with HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
